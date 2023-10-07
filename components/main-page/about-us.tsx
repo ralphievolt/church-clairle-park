@@ -41,7 +41,7 @@ export default function AboutUs() {
         </Text>
         <Text as="p" fontSize="lg">
           A congregation is people, people with a faith and a vision. At 3:00pm
-          on September 9th 1951, the congregation of Clairlea Park had it's
+          on September 9th 1951, the congregation of Clairlea Park had it&apos;s
           beginnings in the corridors of Regent Heights Public School with 93
           people in attendance. The Reverend James Fyfe Donald of Emmanuel
           Presbyterian Church was the minister.
@@ -67,7 +67,7 @@ export default function AboutUs() {
         </Text>
         <Text as="p" fontSize="lg">
           As for the future one can but quote the words of Hudson Taylor -
-          ".....The future is as bright as the promises of God"
+          &lsquo;.....The future is as bright as the promises of God&rsquo;
         </Text>
       </VStack>
 
