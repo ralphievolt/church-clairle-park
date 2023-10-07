@@ -20,7 +20,7 @@ export const HeroSection: FunctionComponent<HeroSectionProps> = () => {
             Welcome to Clairlea Park Presbyterian Online Ministry
           </Heading>
 
-          <Text fontSize="xl" color="gray.500">
+          <Text fontSize="xl" color="gray.700">
             Our church is located in the east end of Toronto and is dedicated to
             serving our neighbours through worship, teaching and outreach. We
             welcome the opportunity to worship with you and hope that you will
