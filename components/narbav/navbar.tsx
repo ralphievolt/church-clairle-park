@@ -18,7 +18,7 @@ import {
   Center,
   HStack,
 } from "@chakra-ui/react";
-import { MoonIcon, SunIcon } from "@chakra-ui/icons";
+import { MoonIcon, PhoneIcon } from "@chakra-ui/icons";
 import { Inter, Playfair_Display_SC } from "next/font/google";
 
 import Image from "next/image";
@@ -76,7 +76,7 @@ export default function Navbar() {
           </HStack>
           <Flex alignItems={"center"}>
             <Stack direction={"row"} spacing={7}>
-              <Text fontSize={{sm:"xs",md: 'md', lg: 'lg' }}>Contact us: (416) 759-3901</Text>
+              <Text fontSize={{sm:"xs",md: 'md', lg: 'lg' }}><PhoneIcon/>{" "}(416) 759-3901</Text>
             </Stack>
           </Flex>
         </Flex>
