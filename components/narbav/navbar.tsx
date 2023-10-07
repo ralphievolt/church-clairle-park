@@ -70,13 +70,13 @@ export default function Navbar() {
           <HStack>
             <Image src={logo} alt="Picture of the author" width={55} height={100} />
 
-            <Box className={playfair.className} fontSize="xl" color="blue.600">
+            <Box className={playfair.className} fontSize={{sm:"xs",md: 'md', lg: 'xl' }} color="blue.600">
               Clairlea Park Presbyterian Church
             </Box>
           </HStack>
           <Flex alignItems={"center"}>
             <Stack direction={"row"} spacing={7}>
-              <Text fontSize={"md"}>Contact us: (416) 759-3901</Text>
+              <Text fontSize={{sm:"xs",md: 'md', lg: 'lg' }}>Contact us: (416) 759-3901</Text>
             </Stack>
           </Flex>
         </Flex>
