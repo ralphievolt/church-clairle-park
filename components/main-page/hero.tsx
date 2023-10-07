@@ -13,7 +13,7 @@ interface HeroSectionProps {}
 
 export const HeroSection: FunctionComponent<HeroSectionProps> = () => {
   return (
-    <Container maxW={"5xl"} mt={10}>
+    <Container maxW={"5xl"} mt={10} pb={30}>
       <VStack>
         <Heading size="xl" mb={4} color="blue.400" textAlign={"center"}>
           Welcome to Clairlea Park Presbyterian Online Ministry
