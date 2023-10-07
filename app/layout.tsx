@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { Providers } from "./providers";
 
-const inter = Inter({ subsets: ["latin"] });
-
-
+import Navbar from "@/components/narbav/navbar";
 
 export const metadata: Metadata = {
   title: "Clairlea Park Presbyterian Church",
@@ -18,8 +15,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Providers>{children}</Providers>
+      <body>
+        <Providers>
+          <Navbar />
+          {children}
+        </Providers>
       </body>
     </html>
   );
